@@ -1,0 +1,51 @@
+********** 29.11.2023 15:55:52 **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 29.11.2023 15:57:35 **********
+Inner Exception Type: System.InvalidOperationException
+Inner Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Inner Source: Markov
+Inner Stack Trace: 
+   в Markov._Default.Page_Load(Object sender, EventArgs e) в C:\Users\reedtz\Desktop\rvo\laba7\Markov\Markov\Default.aspx.cs:строка 14
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Выдано исключение типа "System.Web.HttpUnhandledException".
+Source: Application_Error - Global.asax
+Stack Trace: 
+   в System.Web.UI.Page.HandleError(Exception e)
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.default_aspx.ProcessRequest(HttpContext context)
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 29.11.2023 15:59:30 **********
+Inner Exception Type: System.InvalidOperationException
+Inner Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Inner Source: Markov
+Inner Stack Trace: 
+   в Markov._Default.Page_Load(Object sender, EventArgs e) в C:\Users\reedtz\Desktop\rvo\laba7\Markov\Markov\Default.aspx.cs:строка 14
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Выдано исключение типа "System.Web.HttpUnhandledException".
+Source: Application_Error - Global.asax
+Stack Trace: 
+   в System.Web.UI.Page.HandleError(Exception e)
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.default_aspx.ProcessRequest(HttpContext context)
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
